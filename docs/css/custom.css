@@ -6,10 +6,41 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	color: black;
 	}
+	
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+	float: top;
+	height: 50px;
+	padding: 0px 14px;
+	font-size: 28px;
+	line-height: 49px;
+}
+	
+@media (min-width: 768px) {
+  .navbar-header {
+    float: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-text {
+    display: inline-block;
+	margin:0 auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
 
 .img-rounded {
     border-radius: 6px;
 	border: 1px solid black;
+	max-width: 100%;
+    height: auto;
 }
 	
 .feature {
@@ -53,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-text {
-	text-align: center;
+	text-align: middle;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
