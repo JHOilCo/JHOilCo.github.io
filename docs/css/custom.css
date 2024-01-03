@@ -21,11 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 49px;
 }
 	
-@media (min-width: 768px) {
-  .navbar-header {
-    float: center;
-  }
-}
 
 @media (min-width: 768px) {
   .navbar-text {
@@ -39,8 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 .img-rounded {
     border-radius: 6px;
 	border: 1px solid black;
-	max-width: 100%;
-    height: auto;
 }
 	
 .feature {
