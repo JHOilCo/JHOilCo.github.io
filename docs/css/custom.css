@@ -2,10 +2,11 @@ body {
 	font-family: "Agency FB", Helvetica, Arial, sans-serif;
 	font-size: 14px;
     font-weight: bold;
+		padding-top: 50px;
 	line-height: 1.42857143;
+		color: #959595;
 	background-color: #fff;
-	padding-top: 50px;
-	color: #959595;
+	}
 }
 	
 h1, h2, h3, h4, h5, h6 {
@@ -81,11 +82,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 49px;
 }
 
-.navbar-default {
-  background-color: #fff;
-  border-color: #000;
-}
-
 .navbar-text {
 	text-align: middle;
 }
@@ -96,10 +92,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar,
-.navbar-header,
 .btn-group {
+	float: top;
 	text-align: right;
-	}
+	height: 50px;
+	padding: 0px 14px;
+	font-size: 28px;
+	line-height: 46px;
+}
+
+.navbar-header {
+	float: top;
+	text-align: right;
+	height: 50px;
+	padding: 0px 14px;
+	font-size: 28px;
+	line-height: 46px;
+}
+	
+.navbar-default {
+  background-color: #fff;
+  border-color: #000;
+}
 	
 .navbar-nav > li > .dropdown-menu { background-color: #000000; }
 
