@@ -1,7 +1,12 @@
 body {
+	font-family: "Agency FB", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    font-weight: bold;
+	line-height: 1.42857143;
+	background-color: #fff;
 	padding-top: 50px;
 	color: #959595;
-	}
+}
 	
 h1, h2, h3, h4, h5, h6 {
 	color: black;
@@ -74,6 +79,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px 14px;
   font-size: 28px;
   line-height: 49px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #000;
 }
 
 .navbar-text {
