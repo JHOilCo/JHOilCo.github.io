@@ -241,7 +241,7 @@ img {
   padding: 0px 16px;
   font-size: 30px;
   font-weight: bold;
-  line-height: 43px;
+  line-height: 42px;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -304,9 +304,4 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
   color: #000;
   background-color: dodgerblue;
-}
-
-.bg-primary {
-  color: #fff;
-  background-color: #337ab7;
 }
