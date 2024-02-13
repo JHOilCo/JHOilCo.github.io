@@ -9,12 +9,13 @@ body {
 }
 
 a {
-  color: #025fba;
+  color: #0256a8;
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
-  color: #025fba;
+  color: #0256a8;
   text-decoration: none;
 }
 a:focus {
